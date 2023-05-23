@@ -1,11 +1,13 @@
-import Card from './Card';
+import Card from '../Card/Card';
+import styles from './Cards.module.css';
 
-export default function Cards({characters}) { //hago destructuring con {} para sacar characters de prop
+export default function Cards({characters, onClose}) { //hago destructuring con {} para sacar characters de prop
    return (
-   <div>
+   <div className={styles.displayDiv}>
       {
       characters.map(character => (
          <Card
+            id = {character.id}
             key = {character.id}
             name ={character.name}
             status = {character.status}
@@ -13,7 +15,7 @@ export default function Cards({characters}) { //hago destructuring con {} para s
             gender = {character.gender}
             origin = {character.origin?.name} /*le  pongo el ? para condicional de si existe*/
             image = {character.image}
-            onClose ={() => window.alert('Emulamos que se cierra la card')}
+            onClose = {onClose}
          />
       ))
       }
