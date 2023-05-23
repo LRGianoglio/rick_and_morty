@@ -1,4 +1,4 @@
-import Card from '../Card/Card';
+import Card from '../card/Card';
 import styles from './Cards.module.css';
 
 export default function Cards({characters, onClose}) { //hago destructuring con {} para sacar characters de prop

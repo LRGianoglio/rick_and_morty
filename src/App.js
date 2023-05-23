@@ -1,10 +1,10 @@
 import './App.css';
-import Card from './components/Card/Card.jsx';
-import Cards from './components/Cards/Cards.jsx';
+import Card from './components/card/Card.jsx';
+import Cards from './components/cards/Cards.jsx';
 import SearchBar from './components/SearchBar/SearchBar.jsx';
 import Nav from './components/Nav/Nav';
-import About from './components/About/About';
-import Detail from './components/Detail/Detail';
+import About from './components/about/About';
+import Detail from './components/detail/Detail';
 import Form from './components/Form/Form';
 
 import { useEffect, useState } from 'react';
