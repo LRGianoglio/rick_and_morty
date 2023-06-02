@@ -1,0 +1,46 @@
+.cardDiv{
+    width: 15%;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius:  5px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardDiv *{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonDiv button{
+    background: none;
+    border: 0;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.hNombre{
+    font-size: 1rem;
+    color: black;
+    margin: 0 auto;
+}
+
+.hDesc{
+    font-size: .8rem;
+    margin: 0 auto;
+}
+
+.img{
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}

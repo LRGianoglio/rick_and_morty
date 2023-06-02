@@ -1,0 +1,6 @@
+.displayDiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: greenyellow;
+    height: 80vh;
+}
